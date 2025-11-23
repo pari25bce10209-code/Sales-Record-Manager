@@ -28,7 +28,7 @@ I also added a chart using pandas and matplotlib to visualize sales by date.
    pip install pandas matplotlib
 
 ## Screenshots
-### menuview
+### codefunction
 <img width="1476" height="554" alt="menu" src="https://github.com/user-attachments/assets/c95267a4-5c0f-4c05-855d-2d83980d19a2" /> -menu
 <img width="1439" height="527" alt="viewsales" src="https://github.com/user-attachments/assets/165ec9f3-6f27-4659-a892-e30f1c00e4dc" /> -viewsales
 <img width="1470" height="407" alt="addsales" src="https://github.com/user-attachments/assets/ee78c1bb-c40d-478a-ae1d-fd7c9eeb1284" /> -add sales
@@ -42,6 +42,7 @@ I also added a chart using pandas and matplotlib to visualize sales by date.
  <img width="1299" height="474" alt="showchart" src="https://github.com/user-attachments/assets/f9c880d5-9e29-4183-861d-39d613fd55c7" /> -exit
  
 ### recording
+
 
 
 
