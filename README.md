@@ -50,12 +50,21 @@ the program will open in terminal and we can add, update, delete, and view sales
    Choose the exit option from the menu to safely close the program.
 
 ## Screenshots
+-view sales 
+<img width="1439" height="527" alt="viewsales" src="https://github.com/user-attachments/assets/b7d2130b-b893-4384-9d8c-6f07cdf1a26a" />
+-sort by date
+<img width="1468" height="543" alt="sortbydate" src="https://github.com/user-attachments/assets/900f7263-9768-4935-8d66-c8e5cbabfaef" />
+-update sales
+<img width="733" height="523" alt="updatesale" src="https://github.com/user-attachments/assets/efe85211-fbb1-4b0a-8cac-501cd8145874" />
+-delete sales
+<img width="1474" height="373" alt="deltesale" src="https://github.com/user-attachments/assets/e207b165-742b-4569-84f3-b9a47b90baaf" />
+-visual representation of sale
+<img width="1910" height="974" alt="graph" src="https://github.com/user-attachments/assets/14c5291c-b8ce-408a-883b-beb7bc2794a2" />
+-summary of sale
+<img width="1299" height="474" alt="showchart" src="https://github.com/user-attachments/assets/a878b147-fade-4f9c-9fb9-411e9a79ebd0" />
 
 
 
-
-
----
 
 
 
