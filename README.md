@@ -59,9 +59,11 @@ the program will open in terminal and we can add, update, delete, and view sales
 -delete sales
 <img width="1474" height="373" alt="deltesale" src="https://github.com/user-attachments/assets/e207b165-742b-4569-84f3-b9a47b90baaf" />
 -visual representation of sale
+<br>
 <img width="1910" height="974" alt="graph" src="https://github.com/user-attachments/assets/14c5291c-b8ce-408a-883b-beb7bc2794a2" />
 -summary of sale
 <img width="1299" height="474" alt="showchart" src="https://github.com/user-attachments/assets/a878b147-fade-4f9c-9fb9-411e9a79ebd0" />
+
 
 
 
