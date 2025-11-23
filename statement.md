@@ -13,7 +13,7 @@ The Sales Record Manager project focuses on providing a simple, reliable, and us
 - Visualizing sales trends with charts using pandas and matplotlib
 
 ##  Target Users
-- Small Business Owners & Shopkeepers 
+-Small Business Owners & Shopkeepers 
 Who need a simple way to record daily transactions without relying on notebooks or complex spreadsheets.
 - Clubs & Organizations 
 Useful for managing event ticket sales, membership fees, or fundraising records.
