@@ -1,26 +1,34 @@
 # Statement
 
 ##  Problem Statement
-Managing personal expenses manually can be time‑consuming, error‑prone, and lacks clear insights into spending habits. Users often struggle to track daily expenditures, categorize them effectively, and visualize where their money goes. Without a simple tool, budgeting and financial awareness become difficult.
+The Sales Record Manager is a Python‑based application designed to simplify and automate the process of managing sales records. The project provides a terminal‑based interface where users can add, update, delete, and view sales stored in CSV files. It also generates summary reports and visual charts using pandas and matplotlib, making it easier to analyze sales trends and identify best‑selling products.
+This project demonstrates practical backend development skills by combining file handling, data validation, and visualization into a reliable tool that can be applied in real‑world scenarios such as small businesses, shops, or clubs that need organized and error‑free record‑keeping.
 
 ##  Scope of the Project
-The project aims to build a lightweight, user‑friendly Expense Manager application that:
-- Records daily expenses with essential details (date, category, amount, note).
-- Stores data in a structured format (CSV file).
-- Provides visualization of spending patterns through charts.
-- Offers a simple menu‑driven interface for easy interaction.
-
-This scope is limited to personal expense tracking and visualization, not advanced financial forecasting or multi‑user support.
+The Sales Record Manager project focuses on providing a simple, reliable, and user‑friendly way to manage sales records using Python and CSV files. Its scope includes:
+- Core Functionality
+- Adding, updating, deleting, and viewing sales records.
+- Storing data in CSV format for easy portability.
+- Generating summary reports (total sales and best‑selling product).
+- Visualizing sales trends with charts using pandas and matplotlib
 
 ##  Target Users
-- College Students who want to monitor pocket money or allowances.
-- Working professionals tracking monthly budgets.
-- Families managing household expenses.
-- Anyone seeking a simple tool to record and visualize spending without complex accounting software.
+- Small Business Owners & Shopkeepers 
+Who need a simple way to record daily transactions without relying on notebooks or complex spreadsheets.
+- Clubs & Organizations 
+Useful for managing event ticket sales, membership fees, or fundraising records.
+- Students & Learners 
+Ideal for those practicing backend development, file handling, and data visualization in Python.
+- Freelancers & Professionals 
+Helpful for tracking client payments, generating quick reports, and keeping organized records.
+
+
 
 ##  High‑Level Features
-- **Add Expense**: Input category, amount, and optional notes with automatic date stamping.
-- **View Expenses**: Display all recorded expenses in a readable format.
-- **Plot Expenses**: Generate bar and pie charts to visualize spending by category.
-- **Data Storage**: Maintain expenses in a CSV file for portability and easy access.
-- **Menu Interface**: Simple text‑based navigation for adding, viewing, plotting, or exiting.
+- - Sales Record Management → Add, update, delete, and view sales records stored in CSV files.
+- Data Organization → Sort and filter records by date for easy tracking and analysis.
+- Automated Reporting → Generate summary reports showing total sales and best‑selling products.
+- Data Visualization → Display sales trends with bar charts using pandas and matplotlib.
+- Error Handling → Prevent invalid inputs and ensure reliable record‑keeping.
+- Portable & Lightweight → Works entirely in the terminal with no heavy setup, making it easy to run anywhere.
+- Scalable Foundation → Can be extended with features like GUI, cloud storage, or multi‑user support.
