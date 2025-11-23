@@ -4,25 +4,25 @@ import os
 
 FILE = "sales.csv"
 
-def setupFile():
+def setupFile(): #creating sales record file
     if not os.path.exists(FILE):
         with open(FILE, "w", newline="") as f:
             writer = csv.writer(f)
-            writer.writerow(["Product", "Quantity", "Price", "Date", "Total"])
+            writer.writerow(["Product", "Quantity", "Price", "Date", "Total"]) #adding headers
 
-def addSale(product, qty, price, date):
+def addSale(product, qty, price, date): #adding sale to the records
     total = qty * price
     with open(FILE, "a", newline="") as f:
         writer = csv.writer(f)
         writer.writerow([product, qty, price, date, total])
     print("Sale added!")
 
-def viewSales():
+def viewSales(): #view the sale record
     with open(FILE, "r") as f:
         reader = csv.reader(f)
         for row in reader:
             print(row)
-def updateSale(date, product, newQty, newPrice):
+def updateSale(date, product, newQty, newPrice): #updating the existing sale record
     updated = False
     with open(FILE, "r") as f:
         rows = list(csv.reader(f))
@@ -36,11 +36,11 @@ def updateSale(date, product, newQty, newPrice):
             else:
                 writer.writerow(row)
     if updated:
-        print("Sale updated!")
+        print("Sale updated!") #check update
     else:
         print("Sale not found.")
 
-def deleteSale(date, product):
+def deleteSale(date, product): #delete record of sale
     deleted = False
     with open(FILE, "r") as f:
         rows = list(csv.reader(f))
@@ -58,7 +58,7 @@ def deleteSale(date, product):
 
 
 
-def sortByDate():
+def sortByDate(): #sorting the records by date
     with open(FILE, "r") as f:
         reader = list(csv.reader(f))
         header = reader[0]
@@ -68,7 +68,7 @@ def sortByDate():
         for row in data:
             print(row)
 
-def showSummary():
+def showSummary(): #symmary of the sales
     total = 0
     count = {}
     with open(FILE, "r") as f:
@@ -83,5 +83,6 @@ def showSummary():
                 count[product] = count.get(product, 0) + qty
     print("Total Sales:", total)
     if count:
-        best = max(count, key=count.get)
+        best = max(count, key=count.get) #best sale
+
         print("Best Seller:", best)
